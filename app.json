@@ -1,0 +1,7 @@
+{
+  "name": "Echo Chatbot",
+  "description": "A barebones messenger chatbot using python and django",
+  "repository": "https://github.com/botshala/jaaga-botcamp",
+  "logo": "https://tctechcrunch2011.files.wordpress.com/2016/04/facebook-chatbot-alt.png",
+  "keywords": ["chatbot", "messenger", "boilerplate"]
+}
