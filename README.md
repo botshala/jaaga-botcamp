@@ -5,10 +5,10 @@
 
 1) `git clone` the code for the bot
 ```
-git clone https://github.com/botshala/basic_echo_bot.git
+git clone https://github.com/botshala/jaaga-botcamp.git
 ```
 
-2) Every messenger bot must be associated with a facebook page, Add your page access token to [this line](https://github.com/botshala/basic_echo_bot/blob/master/fb_chatbot/views.py#L13)
+2) Every messenger bot must be associated with a facebook page, Add your page access token to [this line](https://github.com/botshala/jaaga-botcamp/blob/master/fb_chatbot/views.py#L13)
 ![alt text](http://i.imgur.com/0KsbwnA.jpg "fb dashboard img")
 
 3) Next we need to activate the webhook, we will use [heroku](heroku.com) to deploy our bot. Sign up for it and download the [cmd-line toolbelt](https://toolbelt.heroku.com/)
@@ -32,7 +32,7 @@ heroku logs -t
 
 5) Activate your webhook ![alt text](http://g.recordit.co/SCF7NVNxot.gif "fb dashboard gif 1")
 
-6) Make sure the VERIFY_TOKEN you enter on the fb dashboard is the same as [in your code](https://github.com/botshala/basic_echo_bot/blob/master/fb_chatbot/views.py#L14) 
+6) Make sure the VERIFY_TOKEN you enter on the fb dashboard is the same as [in your code](https://github.com/botshala/jaaga-botcamp/blob/master/fb_chatbot/views.py#L14) 
 ![alt text](http://i.imgur.com/acIAODB.png "fb dashboard gif 1")
 
 
